@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\HomeWork_2.7\bin\Debug\net5.0\HomeWork_2.7.exe
+C:\Users\User\source\repos\HomeWork_2.7\bin\Debug\net5.0\HomeWork_2.7.deps.json
+C:\Users\User\source\repos\HomeWork_2.7\bin\Debug\net5.0\HomeWork_2.7.runtimeconfig.json
+C:\Users\User\source\repos\HomeWork_2.7\bin\Debug\net5.0\HomeWork_2.7.runtimeconfig.dev.json
+C:\Users\User\source\repos\HomeWork_2.7\bin\Debug\net5.0\HomeWork_2.7.dll
+C:\Users\User\source\repos\HomeWork_2.7\bin\Debug\net5.0\ref\HomeWork_2.7.dll
+C:\Users\User\source\repos\HomeWork_2.7\bin\Debug\net5.0\HomeWork_2.7.pdb
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.AssemblyInfo.cs
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.dll
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\ref\HomeWork_2.7.dll
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.pdb
+C:\Users\User\source\repos\HomeWork_2.7\obj\Debug\net5.0\HomeWork_2.7.genruntimeconfig.cache
