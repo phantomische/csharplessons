@@ -14,3 +14,19 @@ C:\Users\User\source\repos\HomeWork_3.1\obj\Debug\net5.0\HomeWork_3.1.dll
 C:\Users\User\source\repos\HomeWork_3.1\obj\Debug\net5.0\ref\HomeWork_3.1.dll
 C:\Users\User\source\repos\HomeWork_3.1\obj\Debug\net5.0\HomeWork_3.1.pdb
 C:\Users\User\source\repos\HomeWork_3.1\obj\Debug\net5.0\HomeWork_3.1.genruntimeconfig.cache
+E:\GitHub repos\homework_3.1\bin\Debug\net5.0\HomeWork_3.1.exe
+E:\GitHub repos\homework_3.1\bin\Debug\net5.0\HomeWork_3.1.deps.json
+E:\GitHub repos\homework_3.1\bin\Debug\net5.0\HomeWork_3.1.runtimeconfig.json
+E:\GitHub repos\homework_3.1\bin\Debug\net5.0\HomeWork_3.1.runtimeconfig.dev.json
+E:\GitHub repos\homework_3.1\bin\Debug\net5.0\HomeWork_3.1.dll
+E:\GitHub repos\homework_3.1\bin\Debug\net5.0\ref\HomeWork_3.1.dll
+E:\GitHub repos\homework_3.1\bin\Debug\net5.0\HomeWork_3.1.pdb
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.csproj.AssemblyReference.cache
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.AssemblyInfoInputs.cache
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.AssemblyInfo.cs
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.csproj.CoreCompileInputs.cache
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.dll
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\ref\HomeWork_3.1.dll
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.pdb
+E:\GitHub repos\homework_3.1\obj\Debug\net5.0\HomeWork_3.1.genruntimeconfig.cache

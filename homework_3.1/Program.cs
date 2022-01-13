@@ -62,6 +62,28 @@ namespace HomeWork_3._1
             Console.WriteLine("\n------------------------------");
 
             //Задание №3----------------------------------------------------------
+            Console.WriteLine("Введите целое число: ");
+            int inputNumber = int.Parse(Console.ReadLine());
+            int N = 1;
+            bool check = false;
+            while (N < inputNumber)
+            {
+                if (inputNumber % N == 0 && N!=1)
+                {
+                    check = true;
+                    break;
+                }
+                N++;
+            }
+            if (check)
+            {
+                Console.WriteLine("Число не простое");
+            }
+            else
+            {
+                Console.WriteLine("Число простое");
+            }
+            Console.ReadKey();
         }
     }
 }
