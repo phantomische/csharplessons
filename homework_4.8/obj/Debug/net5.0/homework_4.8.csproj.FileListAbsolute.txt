@@ -1,0 +1,16 @@
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.csproj.AssemblyReference.cache
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.AssemblyInfoInputs.cache
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.AssemblyInfo.cs
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.csproj.CoreCompileInputs.cache
+E:\GitHub repos\csharplessons\homework_4.8\bin\Debug\net5.0\homework_4.8.exe
+E:\GitHub repos\csharplessons\homework_4.8\bin\Debug\net5.0\homework_4.8.deps.json
+E:\GitHub repos\csharplessons\homework_4.8\bin\Debug\net5.0\homework_4.8.runtimeconfig.json
+E:\GitHub repos\csharplessons\homework_4.8\bin\Debug\net5.0\homework_4.8.runtimeconfig.dev.json
+E:\GitHub repos\csharplessons\homework_4.8\bin\Debug\net5.0\homework_4.8.dll
+E:\GitHub repos\csharplessons\homework_4.8\bin\Debug\net5.0\ref\homework_4.8.dll
+E:\GitHub repos\csharplessons\homework_4.8\bin\Debug\net5.0\homework_4.8.pdb
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.dll
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\ref\homework_4.8.dll
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.pdb
+E:\GitHub repos\csharplessons\homework_4.8\obj\Debug\net5.0\homework_4.8.genruntimeconfig.cache
