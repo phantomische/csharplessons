@@ -32,20 +32,25 @@ namespace homework_4._8
 
             //Задание №2--------------------------------------------------------
 
-            Console.WriteLine("Введите длину последовательности: ");
+            Console.WriteLine("Введите длину массива: ");
             int n = int.Parse(Console.ReadLine());
             
             int[] collection = new int[n];
             
             int min = int.MaxValue;
 
-            for (int i = 0; i < collection.Length; i++)
+            for (int i = 0; i < n; i++)
             {
-                collection[i] = r.Next(10);
-                Console.Write($"{collection[i]} ");
-                if (collection[i] < min)
+                Console.WriteLine($"Введите элемент массива №{i + 1}");
+                collection[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine();
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"{collection[j]} ");
+                if (collection[j] < min)
                 {
-                    min = collection[i];
+                    min = collection[j];
                 }
             }
             Console.WriteLine();
@@ -75,7 +80,7 @@ namespace homework_4._8
                 {
                     Console.WriteLine("Введенное число больше загаданного. Попробуйте еще");
                 }
-                else if (Console.ReadLine().Equals(" "))
+                else if (userNumber.Equals(""))
                 {
                     Console.WriteLine($"Загаданым числом было {guessedNumber}");
                     break;
