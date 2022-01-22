@@ -27,7 +27,7 @@ namespace homework_4._8
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine($"Сумма всех элементов матрицы рана: {count}");
+            Console.WriteLine($"Сумма всех элементов матрицы равна: {count}");
             Console.WriteLine();
 
             //Задание №2--------------------------------------------------------
@@ -59,7 +59,6 @@ namespace homework_4._8
 
             // Задание №3---------------------------------------------------------
             int tries = 0;
-            int userNumber;
 
             Console.WriteLine("Введите максимальное целое число для диапозона: ");
             int maxNum = int.Parse(Console.ReadLine());
@@ -71,7 +70,15 @@ namespace homework_4._8
             {
                 Console.Write("\nВведите число: ");
                 tries++;
-                userNumber = int.Parse(Console.ReadLine());
+                var userInput = Console.ReadLine();
+
+                if (userInput == "")
+                {
+                    Console.WriteLine($"Загаданым числом было {guessedNumber}");
+                    break;
+                }
+
+                var userNumber = int.Parse(userInput);
                 if (userNumber < guessedNumber)
                 {
                     Console.WriteLine("Введенное число меньше загаданного. Попробуйте еще");
@@ -79,11 +86,6 @@ namespace homework_4._8
                 else if (userNumber > guessedNumber)
                 {
                     Console.WriteLine("Введенное число больше загаданного. Попробуйте еще");
-                }
-                else if (userNumber.Equals(""))
-                {
-                    Console.WriteLine($"Загаданым числом было {guessedNumber}");
-                    break;
                 }
                 else
                 {
