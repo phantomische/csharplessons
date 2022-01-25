@@ -5,10 +5,10 @@ namespace homework_5._5
     class Program
     {
         //задание №1
-        static void StringToWords ()
+        static string[] StringToWords(string phrase)
         {
-            string phrase = "The quick brown fox jumps over the lazy dog.";
             string[] words = phrase.Split(' ');
+            return words;
         }
         
         static void PrintArray (string[] words)
@@ -21,11 +21,28 @@ namespace homework_5._5
 
         //Задание №2
 
+        public static string ReverseWords(string s)
+        {
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        }
+
+        public static SplitWords(string inputPhrase)
+        {
+            string[] newWords = inputPhrase.Split(' ');
+            foreach (var item in newWords)
+            {
+                Console.WriteLine($"{item}");
+            }
+        }
 
         static void Main(string[] args)
         {
-            StringToWords();
-            PrintArray();
+
+            StringToWords("I would like to become a developer!");
+            PrintArray(words);
+
             
         }
     }
