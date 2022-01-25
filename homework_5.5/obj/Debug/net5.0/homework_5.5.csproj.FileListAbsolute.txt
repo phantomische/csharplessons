@@ -1,0 +1,16 @@
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.csproj.AssemblyReference.cache
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.AssemblyInfoInputs.cache
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.AssemblyInfo.cs
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.csproj.CoreCompileInputs.cache
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\bin\Debug\net5.0\homework_5.5.exe
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\bin\Debug\net5.0\homework_5.5.deps.json
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\bin\Debug\net5.0\homework_5.5.runtimeconfig.json
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\bin\Debug\net5.0\homework_5.5.runtimeconfig.dev.json
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\bin\Debug\net5.0\homework_5.5.dll
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\bin\Debug\net5.0\ref\homework_5.5.dll
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\bin\Debug\net5.0\homework_5.5.pdb
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.dll
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\ref\homework_5.5.dll
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.pdb
+E:\GitHub repos\csharplessons\csharplessons\homework_5.5\obj\Debug\net5.0\homework_5.5.genruntimeconfig.cache
