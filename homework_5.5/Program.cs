@@ -4,9 +4,8 @@ namespace homework_5._5
 {
     class Program
     {
-        string phrase = string.Empty;
-        string[] words = new string[];
-        static void StringToWords (string phrase, string[] words)
+        //задание №1
+        static void StringToWords ()
         {
             string phrase = "The quick brown fox jumps over the lazy dog.";
             string[] words = phrase.Split(' ');
@@ -19,6 +18,8 @@ namespace homework_5._5
                 Console.WriteLine($"<{word}>");
             }
         }
+
+        //Задание №2
 
 
         static void Main(string[] args)
