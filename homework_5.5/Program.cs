@@ -5,19 +5,19 @@ namespace homework_5._5
     class Program
     {
         //задание №1
-        static string[] StringToWords(string phrase)
-        {
-            string[] words = phrase.Split(' ');
-            return words;
-        }
-        
-        static void PrintArray (string[] words)
-        {
-            foreach (var word in words)
-            {
-                Console.WriteLine($"<{word}>");
-            }
-        }
+        //static string[] StringToWords(string phrase)
+        //{
+        //    string[] words = phrase.Split(' ');
+        //    return words;
+        //}
+
+        //static void PrintArray (string[] words)
+        //{
+        //    foreach (var word in words)
+        //    {
+        //        Console.WriteLine($"<{word}>");
+        //    }
+        //}
 
         //Задание №2
 
@@ -28,20 +28,16 @@ namespace homework_5._5
             return new string(charArray);
         }
 
-        public static SplitWords(string inputPhrase)
+        public static string[] SplitWords(string inputPhrase)
         {
             string[] newWords = inputPhrase.Split(' ');
-            foreach (var item in newWords)
-            {
-                Console.WriteLine($"{item}");
-            }
+            return newWords;
         }
 
         static void Main(string[] args)
         {
 
-            StringToWords("I would like to become a developer!");
-            PrintArray(words);
+            var newWords = SplitWords("I would like to become a developer!");
 
             
         }
