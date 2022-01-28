@@ -22,15 +22,15 @@ namespace homework_5._5
         //Задание №2
 
                 
-        public static void ReverseWords(string s)
+        public static string ReverseWords(string word)
         {
-            string[] StringArray = SplitWords("I would like to become a developer");
-            string ReversString = "";
-            for (int i = StringArray.Length - 1; i >= 0; i--)
+            string[] array = SplitWords(word);
+            string result = "";
+            for (int i = array.Length - 1; i >= 0; i--)
             {
-                ReversString += StringArray[i] + " ";
+                result += array[i] + " ";
             }
-            Console.WriteLine(ReversString);
+            return result;
         }
 
         public static string[] SplitWords(string inputPhrase)
@@ -41,7 +41,8 @@ namespace homework_5._5
 
         static void Main(string[] args)
         {
-            ReverseWords("I would like to become a developer");
+            string result = ReverseWords("I would like to become a developer");
+            Console.WriteLine(result);
             
             
         }
