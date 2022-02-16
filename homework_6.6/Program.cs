@@ -7,7 +7,7 @@ namespace homework_6._6
     class Program
     {
 
-        public void ReadData()
+        public static void ReadData()
         {
             using (StreamReader sr = new StreamReader(@"E:\employees.csv", Encoding.Unicode))
             {
@@ -19,7 +19,7 @@ namespace homework_6._6
             Console.ReadKey(); Console.Clear();
         }
 
-        public void WriteData()
+        public static void WriteData()
         {
             string path = @"E:\employees.csv";
             using (StreamWriter sw = new StreamWriter(path, true, Encoding.Unicode))
@@ -54,7 +54,8 @@ namespace homework_6._6
                     Console.Write("Продолжить y/n"); key = Console.ReadKey(true).KeyChar;
                 } while (char.ToLower(key) == 'y');
             }
-            Console.WriteLine($"Файл {path} успешно создать. Нажмите Enter для продолжения\n");
+            Console.WriteLine();
+            Console.WriteLine($"Файл {path} успешно создан. Нажмите Enter для продолжения\n");
             Console.ReadLine();
         }
         static void Main(string[] args)
@@ -68,7 +69,7 @@ namespace homework_6._6
             }
             else if (input == 2)
             {
-                WrtieData();
+                WriteData();
             }
             else
             {
