@@ -7,9 +7,6 @@ namespace homework_7._8
         static void Main(string[] args)
         {
             EmployeeRepository empRep = new EmployeeRepository();
-            empRep.WriteData();
-            Console.ReadKey();
-            
             empRep.ReadData();
         }
     }

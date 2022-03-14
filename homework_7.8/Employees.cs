@@ -8,14 +8,6 @@ namespace homework_7._8
 {
     class Employees
     {
-        public int id;
-        public DateTime createdAt;
-        public string fullName;
-        public int age;
-        public int height;
-        public string birthdate;
-        public string placeOfBirth;
-
         public int ID { get; set; }
         public DateTime CreatedAt { get; set; }
         public string FullName { get; set; }

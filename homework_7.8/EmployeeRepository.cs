@@ -16,16 +16,15 @@ namespace homework_7._8
         }
         
         
-        public void ReadData()
+        public List<Employees> ReadData()
         {
             using (StreamReader sr = new StreamReader(@"E:\employees.csv", Encoding.Unicode))
             {
-                Console.WriteLine(sr.ReadToEnd());
+                var list =  new List<Employees>();
+                 
+                return list;
+           
             }
-
-            Console.WriteLine($"Нажмите Enter для продолжения\n");
-
-            Console.ReadKey(); Console.Clear();
         }
 
         public void WriteData()

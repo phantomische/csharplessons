@@ -3,7 +3,6 @@ E:\GitHub repos\csharplessons\csharplessons\homework_7.8\bin\Debug\net5.0\homewo
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\bin\Debug\net5.0\homework_7.8.runtimeconfig.json
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\bin\Debug\net5.0\homework_7.8.runtimeconfig.dev.json
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\bin\Debug\net5.0\homework_7.8.dll
-E:\GitHub repos\csharplessons\csharplessons\homework_7.8\bin\Debug\net5.0\ref\homework_7.8.dll
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\bin\Debug\net5.0\homework_7.8.pdb
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\obj\Debug\net5.0\homework_7.8.csproj.AssemblyReference.cache
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\obj\Debug\net5.0\homework_7.8.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,4 @@ E:\GitHub repos\csharplessons\csharplessons\homework_7.8\obj\Debug\net5.0\homewo
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\obj\Debug\net5.0\ref\homework_7.8.dll
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\obj\Debug\net5.0\homework_7.8.pdb
 E:\GitHub repos\csharplessons\csharplessons\homework_7.8\obj\Debug\net5.0\homework_7.8.genruntimeconfig.cache
+E:\GitHub repos\csharplessons\csharplessons\homework_7.8\obj\Debug\net5.0\refint\homework_7.8.dll
