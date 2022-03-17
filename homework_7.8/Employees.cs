@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace homework_7._8
 {
-    class Employees
+    class Employee
     {
         public int ID { get; set; }
         public DateTime CreatedAt { get; set; }
@@ -16,7 +16,7 @@ namespace homework_7._8
         public string BirthDate { get; set; }
         public string PlaceOfBirth { get; set; }
 
-        public Employees(int id, DateTime createdAt, string fullName, int age, int height, string birthdate, string placeOfBirth)
+        public Employee(int id, DateTime createdAt, string fullName, int age, int height, string birthdate, string placeOfBirth)
         {
             this.ID = id;
             this.CreatedAt = createdAt;
