@@ -77,7 +77,13 @@ namespace homework_7._8
             {
                 foreach (var employee in _employees)
                 {
-
+                    sw.WriteLine(employee.ID + "#" + 
+                                  employee.CreatedAt.ToString() + "#" +
+                                  employee.FullName + "#" +
+                                  employee.Age + "#" +
+                                  employee.Height + "#" +
+                                  employee.BirthDate + "#" +
+                                  employee.PlaceOfBirth);
                 }
             }
         }
