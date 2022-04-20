@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_7.8\\homework_7.8.csproj": {}
+    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_8.6\\homework_8.6\\homework_8.6.csproj": {}
   },
   "projects": {
-    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_7.8\\homework_7.8.csproj": {
+    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_8.6\\homework_8.6\\homework_8.6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_7.8\\homework_7.8.csproj",
-        "projectName": "homework_7.8",
-        "projectPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_7.8\\homework_7.8.csproj",
+        "projectUniqueName": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_8.6\\homework_8.6\\homework_8.6.csproj",
+        "projectName": "homework_8.6",
+        "projectPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_8.6\\homework_8.6\\homework_8.6.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_7.8\\obj\\",
+        "outputPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_8.6\\homework_8.6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
