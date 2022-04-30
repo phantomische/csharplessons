@@ -15,6 +15,8 @@ namespace homework_8._6
             //Sort(numbers);
 
             // Задание №2
+            string phone;
+            string phoneOwner;
             Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
             phoneBook.Add("1234567", "Sultan Yerbulatov");
@@ -23,15 +25,28 @@ namespace homework_8._6
             phoneBook.Add("6543210", "Petr Petrov");
             phoneBook.Add("3210123", "Sidor Sidorov");
 
-            Console.WriteLine("Please enter the phone number to display it's owner");
-            string input = Console.ReadLine();
-            if (phoneBook.ContainsKey(input))
+            while (true)
             {
-                Console.WriteLine($"This number belongs to {phoneBook[input]}");
+                Console.WriteLine("Введите номер телефона");
+                phone = Console.ReadLine();
+                Console.WriteLine("Введите имя владельца");
+                phoneOwner = Console.ReadLine();
+                phoneBook.Add(phone, phoneOwner);
+                Console.WriteLine("\n");
+                break;
             }
-            else
+            foreach (var item in phoneBook)
             {
-                Console.WriteLine("Such number is not registered");
+                Console.WriteLine($"phone number: {item.Key}, it's owner: {item.Value}");
+            }
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Введите номер телефона для отображения его владельца");
+            string phoneNumber = Console.ReadLine();
+            string value = "";
+            if (KeyValuePair)
+            {
+
             }
 
         }
