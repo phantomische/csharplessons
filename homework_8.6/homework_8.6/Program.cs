@@ -43,10 +43,15 @@ namespace homework_8._6
 
             Console.WriteLine("Введите номер телефона для отображения его владельца");
             string phoneNumber = Console.ReadLine();
-            string value = "";
-            if (KeyValuePair)
-            {
+            string name;
 
+            if (phoneBook.TryGetValue(phoneNumber, out name))
+            {
+                Console.WriteLine($"По номеру {phoneNumber} найден контакт с именем {name}");
+            }
+            else
+            {
+                Console.WriteLine("Контакт не найден. Введите пустую строку для завершения поиска.");
             }
 
         }
