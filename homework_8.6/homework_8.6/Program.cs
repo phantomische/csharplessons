@@ -15,45 +15,64 @@ namespace homework_8._6
             //Sort(numbers);
 
             // Задание №2
-            string phone;
-            string phoneOwner;
-            Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+            //string phone;
+            //string phoneOwner;
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
-            phoneBook.Add("1234567", "Sultan Yerbulatov");
-            phoneBook.Add("1122334", "Sultan Yerbulatov");
-            phoneBook.Add("9865764", "Ivan Ivanov");
-            phoneBook.Add("6543210", "Petr Petrov");
-            phoneBook.Add("3210123", "Sidor Sidorov");
+            //phoneBook.Add("1234567", "Sultan Yerbulatov");
+            //phoneBook.Add("1122334", "Sultan Yerbulatov");
+            //phoneBook.Add("9865764", "Ivan Ivanov");
+            //phoneBook.Add("6543210", "Petr Petrov");
+            //phoneBook.Add("3210123", "Sidor Sidorov");
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Введите номер телефона");
+            //    phone = Console.ReadLine();
+            //    Console.WriteLine("Введите имя владельца");
+            //    phoneOwner = Console.ReadLine();
+            //    phoneBook.Add(phone, phoneOwner);
+            //    Console.WriteLine("\n");
+            //    break;
+            //}
+            //foreach (var item in phoneBook)
+            //{
+            //    Console.WriteLine($"phone number: {item.Key}, it's owner: {item.Value}");
+            //}
+            //Console.WriteLine("\n");
+
+            //Console.WriteLine("Введите номер телефона для отображения его владельца");
+            //string phoneNumber = Console.ReadLine();
+            //string name;
+
+            //if (phoneBook.TryGetValue(phoneNumber, out name))
+            //{
+            //    Console.WriteLine($"По номеру {phoneNumber} найден контакт с именем {name}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Контакт не найден. Введите пустую строку для завершения поиска.");
+            //}
+
+            // Задание №3
+            HashSet<int> hs = new HashSet<int>();
 
             while (true)
             {
-                Console.WriteLine("Введите номер телефона");
-                phone = Console.ReadLine();
-                Console.WriteLine("Введите имя владельца");
-                phoneOwner = Console.ReadLine();
-                phoneBook.Add(phone, phoneOwner);
-                Console.WriteLine("\n");
-                break;
-            }
-            foreach (var item in phoneBook)
-            {
-                Console.WriteLine($"phone number: {item.Key}, it's owner: {item.Value}");
-            }
-            Console.WriteLine("\n");
+                Console.WriteLine("Введите число");
+                int input = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите номер телефона для отображения его владельца");
-            string phoneNumber = Console.ReadLine();
-            string name;
-
-            if (phoneBook.TryGetValue(phoneNumber, out name))
-            {
-                Console.WriteLine($"По номеру {phoneNumber} найден контакт с именем {name}");
+                if (!hs.Contains(input))
+                {
+                    hs.Add(input);
+                    Console.WriteLine("Число успешно сохранено");
+                }
+                else
+                {
+                    Console.WriteLine("Данное число уже воодилось ранее");
+                    break;
+                }
             }
-            else
-            {
-                Console.WriteLine("Контакт не найден. Введите пустую строку для завершения поиска.");
-            }
-
         }
 
         //public static void Display(List<int> list)
