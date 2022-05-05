@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace homework_8._6
 {
@@ -55,24 +56,46 @@ namespace homework_8._6
             //}
 
             // Задание №3
-            HashSet<int> hs = new HashSet<int>();
+            //HashSet<int> hs = new HashSet<int>();
 
-            while (true)
-            {
-                Console.WriteLine("Введите число");
-                int input = Convert.ToInt32(Console.ReadLine());
+            //while (true)
+            //{
+            //    Console.WriteLine("Введите число");
+            //    int input = Convert.ToInt32(Console.ReadLine());
 
-                if (!hs.Contains(input))
-                {
-                    hs.Add(input);
-                    Console.WriteLine("Число успешно сохранено");
-                }
-                else
-                {
-                    Console.WriteLine("Данное число уже воодилось ранее");
-                    break;
-                }
-            }
+            //    if (!hs.Contains(input))
+            //    {
+            //        hs.Add(input);
+            //        Console.WriteLine("Число успешно сохранено");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Данное число уже воодилось ранее");
+            //        break;
+            //    }
+            //}
+
+            // Задание №4
+            XElement person = new XElement("Person");
+            XElement address = new XElement("Address");
+            XElement street = new XElement("Street");
+            XElement houseNumber = new XElement("HouseNumber");
+            XElement flatNumber = new XElement("FlatNumber");
+            XElement phones = new XElement("Phones");
+            XElement mobilePhone = new XElement("MobilePhone");
+            XElement flatPhone = new XElement("FlatPhone");
+
+            XAttribute xAttributeName = new XAttribute("name", "ФИО человека");
+            XAttribute xAttributeStreetName = new XAttribute("Название улицы");
+
+            person.Add(address, phones, xAttributeName);
+            address.Add(street);
+            address.Add(houseNumber);
+            address.Add(flatNumber);
+            phones.Add(mobilePhone);
+            phones.Add(flatPhone);
+
+            person.Save("_person.xml");
         }
 
         //public static void Display(List<int> list)
