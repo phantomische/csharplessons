@@ -75,10 +75,13 @@ namespace homework_8._6
             //    }
             //}
 
-            // Задание №4
+            // Задание №4          
             XElement person = new XElement("Person");
             XElement address = new XElement("Address");
-            XElement street = new XElement("Street");
+
+            XElement street = new XElement("Street", new XAttribute("Str", "Название улицы"));
+            XAttribute str = street.Attribute("Str");
+
             XElement houseNumber = new XElement("HouseNumber");
             XElement flatNumber = new XElement("FlatNumber");
             XElement phones = new XElement("Phones");
@@ -86,7 +89,6 @@ namespace homework_8._6
             XElement flatPhone = new XElement("FlatPhone");
 
             XAttribute xAttributeName = new XAttribute("name", "ФИО человека");
-            XAttribute xAttributeStreetName = new XAttribute("Название улицы");
 
             person.Add(address, phones, xAttributeName);
             address.Add(street);
