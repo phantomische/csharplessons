@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Person name="ФИО человека">
   <Address>
-    <Street Str="Название улицы" />
-    <HouseNumber />
-    <FlatNumber />
+    <Street>Название улицы</Street>
+    <HouseNumber>Номер дома</HouseNumber>
+    <FlatNumber>Номер квартиры</FlatNumber>
   </Address>
   <Phones>
-    <MobilePhone />
-    <FlatPhone />
+    <MobilePhone>89999999999</MobilePhone>
+    <FlatPhone>123-45-67</FlatPhone>
   </Phones>
 </Person>

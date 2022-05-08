@@ -79,14 +79,12 @@ namespace homework_8._6
             XElement person = new XElement("Person");
             XElement address = new XElement("Address");
 
-            XElement street = new XElement("Street", new XAttribute("Str", "Название улицы"));
-            XAttribute str = street.Attribute("Str");
-
-            XElement houseNumber = new XElement("HouseNumber");
-            XElement flatNumber = new XElement("FlatNumber");
+            XElement street = new XElement("Street", "Название улицы");
+            XElement houseNumber = new XElement("HouseNumber", "Номер дома");
+            XElement flatNumber = new XElement("FlatNumber", "Номер квартиры");
             XElement phones = new XElement("Phones");
-            XElement mobilePhone = new XElement("MobilePhone");
-            XElement flatPhone = new XElement("FlatPhone");
+            XElement mobilePhone = new XElement("MobilePhone", "89999999999");
+            XElement flatPhone = new XElement("FlatPhone", "123-45-67");
 
             XAttribute xAttributeName = new XAttribute("name", "ФИО человека");
 
