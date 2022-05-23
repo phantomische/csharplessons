@@ -14,8 +14,7 @@ namespace homework_9._4
         static TelegramBotClient bot;
         static void Main(string[] args)
         {
-            string token = "5320706394:AAGGNAuArVDSJV3ZEZQ_cv-y8wtHSbS7UdI";
-
+            string token = "hidden";
             bot = new TelegramBotClient(token);
             bot.OnMessage += MessageListener;
             bot.StartReceiving();
