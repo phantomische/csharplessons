@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PEtpHGwemw1hTOJ3OZfdJcWkxK6SRpIUeBncwQN8L4xMvikKE0Pv/8BcnJlPMMy3855L9k1HLh6l3BRadGydFw==",
+  "dgSpecHash": "mxyR4dMQJZUlmVedV9qzdLObso9hYKFiTQbVKHhv0ycBW/ehDpWTnXeOw8SQp8gNihSWELdN2VvKHYSZsKeHXQ==",
   "success": true,
   "projectFilePath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_9.4\\homework_9.4\\homework_9.4.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\telegram.bot\\17.0.0\\telegram.bot.17.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
