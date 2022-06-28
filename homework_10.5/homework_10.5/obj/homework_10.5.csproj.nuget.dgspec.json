@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_9.4\\homework_9.4\\homework_9.4.csproj": {}
+    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_10.5\\homework_10.5\\homework_10.5.csproj": {}
   },
   "projects": {
-    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_9.4\\homework_9.4\\homework_9.4.csproj": {
+    "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_10.5\\homework_10.5\\homework_10.5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_9.4\\homework_9.4\\homework_9.4.csproj",
-        "projectName": "homework_9.4",
-        "projectPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_9.4\\homework_9.4\\homework_9.4.csproj",
+        "projectUniqueName": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_10.5\\homework_10.5\\homework_10.5.csproj",
+        "projectName": "homework_10.5",
+        "projectPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_10.5\\homework_10.5\\homework_10.5.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_9.4\\homework_9.4\\obj\\",
+        "outputPath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_10.5\\homework_10.5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0-windows7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
             "projectReferences": {}
           }
         },
@@ -36,20 +36,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "dependencies": {
-            "MailKit": {
-              "target": "Package",
-              "version": "[3.2.0, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
             },
             "Telegram.Bot": {
               "target": "Package",
-              "version": "[17.0.0, )"
+              "version": "[18.0.0, )"
             },
             "Telegram.Bot.Extensions.Polling": {
               "target": "Package",
@@ -69,6 +65,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"

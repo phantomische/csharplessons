@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "npj8b+kYTNXWcVLDs/ZQAuS9JRCfU58vfUpXrhkTQ3cV+v40XRhvE9+97SA0VgnYGT9M72rsBcYEx0+Ejs0O6w==",
+  "success": true,
+  "projectFilePath": "E:\\GitHub repos\\csharplessons\\csharplessons\\homework_10.5\\homework_10.5\\homework_10.5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\telegram.bot.extensions.polling\\1.0.2\\telegram.bot.extensions.polling.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
