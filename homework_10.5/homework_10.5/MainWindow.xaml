@@ -5,51 +5,82 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:homework_10._5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid ShowGridLines="True">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-
-
-
-        <ListBox x:Name="logList" 
-                 Grid.Column="0"
-                 HorizontalAlignment="Stretch" 
-                 Margin="5" 
-                 VerticalAlignment="Stretch" 
-                 >
+        Title="MainWindow" Height="500" Width="900" MinHeight="500" MinWidth="900">
+    <Grid>
+        <ListBox
+            x:Name="logListBox" 
+            Margin="10,10,55,148">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Black" Margin="5" BorderThickness="1" CornerRadius="10">
-                        <StackPanel Margin="10">
-                            <TextBlock Text="{Binding FirstName}" Margin="0" FontSize="15"/>
-                            <TextBlock Text="{Binding Msg}" Margin="0" FontSize="20"/>
-                            <TextBlock Text="{Binding Time}" Margin="10 0" FontSize="10" Foreground="Gray" TextAlignment="Right"/>
-                        </StackPanel>
-                    </Border>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Username}" />
+                        <TextBlock Text="{Binding Msg}" />
+                        <TextBlock Text="{Binding Time}" />
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-
-        <GroupBox Grid.Column="1" 
-                  FontSize="20"
-                  Header="Отправка сообщения"
-                  HorizontalAlignment="Stretch" 
-                  Margin="5"
-                  VerticalAlignment="Stretch" 
-                  >
-            <StackPanel>
-                <TextBlock x:Name="TargetSend" 
-                           Text="{Binding ElementName=logList, Path=SelectedItem.Id}"
-                           Visibility="Collapsed"
-                           Margin="5"/>
-
-                <TextBox x:Name="txtMsgSend" FontSize="20" Margin="5"/>
-
-                <Button x:Name="btnMsgSend" FontSize="20" Content="Отправить" Margin="5" Click="btnMsgSendClick"/>
-            </StackPanel>
-        </GroupBox>
+        <Button x:Name="Refresher" 
+                Content="Обновить" 
+                HorizontalAlignment="Left" 
+                Margin="10,0,0,92" 
+                VerticalAlignment="Bottom" 
+                Height="51" 
+                Width="112" 
+                Click="refrshClck" FontSize="14"/>
+        <TextBox x:Name="txtMsgSend" 
+            HorizontalAlignment="Right" 
+            Margin="0,0,55,71" 
+            Text="" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Bottom" 
+            Width="382" 
+            Height="36"/>
+        <Button 
+            Content="Отправить" 
+            HorizontalAlignment="Right" 
+            Margin="0,0,55,41" 
+            VerticalAlignment="Bottom" 
+            Height="25" 
+            Width="172" 
+            Click="sndBtnClck"/>
+        <TextBlock x:Name="txtTarget" 
+            HorizontalAlignment="Right" 
+            Margin="0,0,55,112" 
+            Text="{Binding ElementName=logListBox, Path=SelectedItem.Id}" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Bottom" 
+            Height="31" 
+            Width="218" 
+            TextAlignment="Right" 
+            FontFamily="Juice ITC" FontSize="24"/>
+        <Button 
+            x:Name="ExportSmsBtn" 
+            Content="Экспорт sms" 
+            HorizontalAlignment="Left" 
+            Margin="127,0,0,92" 
+            VerticalAlignment="Bottom" 
+            Height="51" Width="171" 
+            Click="exportSmsBtnClck"/>
+        <Button 
+            x:Name="ExitBtn" 
+            Content="Выход" 
+            HorizontalAlignment="Left" 
+            Margin="127,0,0,50" 
+            VerticalAlignment="Bottom" 
+            Width="171" Height="25" 
+            Click="exitBtnClck"/>
+        <TextBlock 
+            HorizontalAlignment="Right" 
+            Margin="0,0,278,117" 
+            Text="i7ucaTb cmc:" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Bottom" 
+            Height="26" 
+            Width="159" 
+            FontFamily="Juice ITC" 
+            FontSize="24" 
+            FontWeight="Bold" 
+            FontStyle="Italic"/>
     </Grid>
 </Window>
